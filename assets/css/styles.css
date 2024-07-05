@@ -1,0 +1,57 @@
+:root {
+    --azul-principal: #261569;
+    --azul-secundario: #2f1f5d;
+    --vermelho-primario: #a52d29;
+}
+
+/* geral */
+
+.container {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+}
+
+body {
+    padding-top: 60px;
+}
+
+header {
+    top: 0;
+}
+
+/* Navegador */
+
+.background-color-primary {
+    background-color: var(--azul-principal);
+}
+
+/* Cartões */
+
+.card-body {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+}
+
+/* Sobre mim */
+
+.background-color-secondary {
+    background-color: var(--azul-secundario);
+}
+
+.background-color-terciary {
+    background-color: var(--vermelho-primario) !important;
+}
+
+/* localização */
+
+.google {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+}
+
+/* Rodapé */
+
+.assinatura {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 1rem;
+}
